@@ -2,7 +2,7 @@
 
 Find unpinned GitHub Actions. Replace floating references with immutable commit SHAs.
 
-Live: _Add your Vercel URL here_
+Live: https://forgepin-app2.vercel.app
 
 ## Features
 
