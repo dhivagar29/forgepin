@@ -95,7 +95,7 @@ export default function AuditWorkspace() {
       </aside>
 
       <div className="main-shell">
-        <header className="topbar"><div className="breadcrumb"><span className="mobile-brand"><Brand small /></span><span className="desktop-crumb">Workspace <ChevronRight size={13} /></span><span className="page-crumb">Repository audit</span></div><div className="topbar-right"><button className="mobile-guide" onClick={() => setGuideOpen(true)} aria-label="Open pinning guide"><Layers3 size={18} /></button><span className="version">v1.0</span><a href="https://github.com" target="_blank" rel="noreferrer" aria-label="GitHub (project repository link coming soon)"><Github size={19} /></a></div></header>
+        <header className="topbar"><div className="breadcrumb"><span className="mobile-brand"><Brand small /></span><span className="desktop-crumb">Workspace <ChevronRight size={13} /></span><span className="page-crumb">Repository audit</span></div><div className="topbar-right"><button className="mobile-guide" onClick={() => setGuideOpen(true)} aria-label="Open pinning guide"><Layers3 size={18} /></button><span className="version">v1.0</span><a href="https://github.com/dhivagar29/forgepin" target="_blank" rel="noreferrer" aria-label="ForgePin on GitHub"><Github size={19} /></a></div></header>
 
         <main id="main">
           <section className="hero" aria-labelledby="hero-title">
@@ -135,7 +135,7 @@ export default function AuditWorkspace() {
           </section>
 
           <section className="explainer-grid" aria-label="How ForgePin works"><div><span className="explainer-number">01 / DISCOVER</span><h3><FileCode2 size={17} /> Every workflow, in focus</h3><p>Inspect default-branch workflows and referenced composites under .github/actions.</p></div><div><span className="explainer-number">02 / CLASSIFY</span><h3><GitBranch size={17} /> Spot the moving targets</h3><p>Separate immutable SHAs from floating tags, branches, and shortened references.</p></div><div><span className="explainer-number">03 / REMEDIATE</span><h3><ShieldCheck size={17} /> Leave with a concrete fix</h3><p>Copy resolved commit references into your workflows. Review, commit, and ship.</p></div></section>
-          <footer><span><Brand small /> <span className="footer-caption">A little certainty in your supply chain.</span></span><a href="https://github.com/YOUR_USERNAME/forgepin" target="_blank" rel="noreferrer">Source on GitHub <span className="footer-placeholder">(link pending)</span><ArrowUpRight size={13} /></a></footer>
+          <footer><span><Brand small /> <span className="footer-caption">A little certainty in your supply chain.</span></span><a href="https://github.com/dhivagar29/forgepin" target="_blank" rel="noreferrer">Source on GitHub<ArrowUpRight size={13} /></a></footer>
         </main>
       </div>
       <div className="sr-only" role="status" aria-live="polite">{copied ? "Pinned uses line copied to clipboard." : result ? `Audit complete. ${result.summary.total} usages found. ${result.summary.needsAttention} need attention.${result.complete ? "" : " Scan is partial."}` : ""}</div>

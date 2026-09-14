@@ -97,6 +97,6 @@ src/types/                   Minimal typed js-yaml API surface
 
 Tests cover YAML context and source lines, quoted/flow syntax, comments and shell blocks, reusable workflows, composites and aliases, classification, request validation, token privacy, private/404/rate-limit states, partial scans, lookup deduplication, and network-free demo execution. GitHub integration tests use deterministic HTTP mocks.
 
-Before publishing, replace `https://github.com/YOUR_USERNAME/forgepin` in the footer with your repository URL and fill in the `Live:` line above.
+Before publishing, replace `https://github.com/dhivagar29/forgepin` in the footer with your repository URL and fill in the `Live:` line above.
 
 API references: [Next.js Route Handlers](https://nextjs.org/docs/app/getting-started/route-handlers), [GitHub repository contents](https://docs.github.com/en/rest/repos/contents), [GitHub commits](https://docs.github.com/en/rest/commits/commits), [GitHub Actions security hardening](https://docs.github.com/en/actions/security-for-github-actions/security-guides/security-hardening-for-github-actions).
